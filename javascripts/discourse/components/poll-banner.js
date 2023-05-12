@@ -61,7 +61,9 @@ export default Component.extend({
       let voteSelected = document.querySelector(
         '[data-poll-option-id="' + voteClick + '"]'
       );
-
+      
+      window.open('https://survey.adobe.com/jfe/form/SV_0ihkMs9y7Kylquy?Source=uxp_forums_banner&amp;Q_PopulateResponse={%22QID42%22:%229%22}', '_blank');
+      
       voteOptions.forEach((option) => {
         option.classList.remove("selected-vote");
       });
